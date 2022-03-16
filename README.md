@@ -20,4 +20,4 @@ The value of `{LangName}` is one of the following (i.e. lowercase of the Name of
 - pt
 - ru
 
-Please use `template.lang` as template, modify like `Storage=卡菜单`
+Please use `template.lang` as template, modify it like `Res/zh.txt`
