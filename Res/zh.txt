@@ -22,7 +22,7 @@ Lemm Sell All=右侧对话一键卖古董
 #Patched Bosses
 No Backrolls=禁止滚滚后滚
 Sleepy Crystal Guardian=孢子不会叫醒水晶守卫
-Spore Shroom Hollow Knight=Spore Shroom Hollow Knight
+Spore Shroom Hollow Knight=黑卵仙贝孢子多伤
 
 #Skip Cutscenes
 Absolute Radiance=跳过无上辐光开场动画
