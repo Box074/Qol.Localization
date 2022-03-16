@@ -1,0 +1,15 @@
+{
+  "ProjectName": "Qol.ChineseLocalization",
+  "ModVersion": "0.0.0.0",
+  "CodeDir": ".\\Scripts\\",
+  "EmbeddedResourceDir": ".\\Res\\",
+  "EmbeddedResource": {
+    "zh.txt": "zh"
+  },
+  "Guid": "0d873bd5-fcc5-4839-8a3c-c17ad4d60977",
+  "DependenciesDir": ".\\Dependencies\\",
+  "ModdingAPIVersion": "1.5.78.11833-68",
+  "IgnoreDlls": [],
+  "WebDependencies": [],
+  "UseGZip": true
+}

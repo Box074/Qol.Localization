@@ -1,0 +1,55 @@
+
+#Desc
+Dev=开发
+FixVolume=音量修复
+NPCSellAll=一键卖物
+PatchedBosses=修改Boss
+SkipCutscenes=跳过场
+SpeedBroke=速通
+
+#Dev
+Log Unity Errors=重定向UnityLog的Error
+Enable Stacktrace=启用堆栈追踪
+
+#FixVolume
+Double Damage Volume Modifier=修复双伤音效
+
+#NPC Sell All
+Jinn Sell All=右侧对话一键卖蛋
+Lemm Sell All=右侧对话一键卖古董
+
+#Patched Bosses
+No Backrolls=禁止滚滚后滚
+Sleepy Crystal Guardian=孢子不会叫醒水晶守卫
+Spore Shroom Hollow Knight
+
+#Skip Cutscenes
+Absolute Radiance=跳过无上辐光开场动画
+Abyss Shriek Get=跳过黑吼过场动画
+After Kings Brand Get=快速获取王之印记
+Allow Skipping Nonskippable=允许跳过原先不可跳过的动画
+Auto Skip Cinematics=自动跳过过场动画
+Black Egg Open=快速开启黑卵门
+Dreamers Get=快速击杀守梦者
+First Charm=跳过第一个护符的动画
+First Time Bosses=跳过部分Boss入场动画
+Godhome Entry=快速进入神居
+Hall Of Gods Statues=手办屋快速挑战
+Instant Scene Fade Ins=视角快速淡入\淡出
+Pure Vessel Roar=纯粹容器快速入场
+Skip Cutscenes Without Prompt=在没有提示的情况下跳过过场动画
+Stag Arrive=鹿角虫快速到达
+
+#Speed Broke
+Crystalised Mound Spikes=允许下劈水晶山峰的尖刺
+Explosion Pogo=允许下劈爆炸特效
+Grubs Through Walls
+Lever Skips
+Menu Drop=下落菜单
+No Hard Falls=禁用Hard Fall
+Shade Soul Lever Skip
+Storage=卡菜单
+Superslides
+Televator
+
+
