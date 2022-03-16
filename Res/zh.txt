@@ -6,7 +6,7 @@ FixVolume=音量修复
 NPCSellAll=一键卖物
 PatchedBosses=Boss修改
 SkipCutscenes=跳过场
-SpeedBroke=速通
+SpeedBroke=速通BUG
 
 #Dev
 Log Unity Errors=重定向UnityLog的Error
@@ -44,13 +44,12 @@ Stag Arrive=鹿角虫快速到达
 #Speed Broke
 Crystalised Mound Spikes=允许下劈水晶山峰的尖刺
 Explosion Pogo=允许下劈爆炸特效
-Grubs Through Walls=Grubs Through Walls
-Lever Skips=Lever Skips
+Grubs Through Walls=隔墙救虫
+Lever Skips=隔墙拉杆
 Menu Drop=下落菜单
-No Hard Falls=禁用Hard Fall
-Shade Soul Lever Skip
+No Hard Falls=落地无硬直
+Shade Soul Lever Skip=黑波开拉杆
 Storage=卡菜单
-Superslides=Superslides
-Televator=Televator
-
+Superslides=超级滑行
+Televator=传送电梯
 
