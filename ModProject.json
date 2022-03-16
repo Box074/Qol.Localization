@@ -1,5 +1,5 @@
 {
-  "ProjectName": "Qol.ChineseLocalization",
+  "ProjectName": "Qol.Localization",
   "ModVersion": "0.0.0.0",
   "CodeDir": ".\\Scripts\\",
   "EmbeddedResourceDir": ".\\Res\\",

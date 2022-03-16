@@ -3,24 +3,31 @@ using GlobalEnums;
 
 namespace Qol;
 
-class QolChinese : ModBase
+class QolLocalization : ModBase
 {
-    public QolChinese() : base("Qol.ChineseLocalization")
+    public QolLocalization() : base("Qol.Localization")
     {
         var qol = HKTool.Reflection.ReflectionHelper.FindType("QoL.QoL");
-        var bools = new string[] { "关闭", "开启" };
+        var bools = new string[]
+        {
+            Language.Language.Get("MOH_OFF", "MainMenu"),
+            Language.Language.Get("MOH_ON", "MainMenu")
+        };
         HookEndpointManager.Add(qol.GetMethod("GetMenuData"),
-            (Func<object,IMenuMod.MenuEntry?,List<IMenuMod.MenuEntry>> orig, object self ,
+            (Func<object, IMenuMod.MenuEntry?, List<IMenuMod.MenuEntry>> orig, object self,
                 IMenuMod.MenuEntry? button) =>
             {
                 var entries = orig(self, button);
-                if(Language.Language.CurrentLanguage() != Language.LanguageCode.ZH) return entries;
-                for(int i = 0 ; i < entries.Count ; i++)
+                if (I18n.CurrentCode.Value == Language.LanguageCode.ZH_CN)
+                    if ((I18n.CurrentCode ?? Language.LanguageCode.ZH_CN) == Language.LanguageCode.ZH_CN &&
+                        Language.Language.CurrentLanguage() != Language.LanguageCode.ZH)
+                        return entries;
+                for (int i = 0; i < entries.Count; i++)
                 {
                     var e = entries[i];
                     e.Name = e.Name?.Trim()?.Get();
                     e.Description = e.Description is not null ?
-                        "分类：" + e.Description?.Replace("Comes from ", "")?.Trim()?.Get() : null;
+                        "Comes from".GetFormat(e.Description?.Replace("Comes from ", "")?.Trim()?.Get()) : null;
                     e.Values = bools;
                     entries[i] = e;
                 }
@@ -30,11 +37,11 @@ class QolChinese : ModBase
     }
     protected override List<(SupportedLanguages, string)> LanguagesEx => new()
     {
-        (SupportedLanguages.ZH, "zh")
+        ((SupportedLanguages)Language.LanguageCode.ZH_CN, "zh")
     };
-    protected override SupportedLanguages DefaultLanguageCode => SupportedLanguages.ZH;
+    protected override SupportedLanguages DefaultLanguageCode => (SupportedLanguages)Language.LanguageCode.ZH_CN;
     public override void OnCheckDependencies()
     {
-        CheckAssembly("QoL", new Version(0,0,0,0));
+        CheckAssembly("QoL", new Version(0, 0, 0, 0));
     }
 }

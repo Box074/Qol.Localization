@@ -1,9 +1,10 @@
+Comes from=分类{0}
 
 #Desc
 Dev=开发
 FixVolume=音量修复
 NPCSellAll=一键卖物
-PatchedBosses=修改Boss
+PatchedBosses=Boss修改
 SkipCutscenes=跳过场
 SpeedBroke=速通
 
@@ -21,7 +22,7 @@ Lemm Sell All=右侧对话一键卖古董
 #Patched Bosses
 No Backrolls=禁止滚滚后滚
 Sleepy Crystal Guardian=孢子不会叫醒水晶守卫
-Spore Shroom Hollow Knight
+Spore Shroom Hollow Knight=Spore Shroom Hollow Knight
 
 #Skip Cutscenes
 Absolute Radiance=跳过无上辐光开场动画
@@ -43,13 +44,13 @@ Stag Arrive=鹿角虫快速到达
 #Speed Broke
 Crystalised Mound Spikes=允许下劈水晶山峰的尖刺
 Explosion Pogo=允许下劈爆炸特效
-Grubs Through Walls
-Lever Skips
+Grubs Through Walls=Grubs Through Walls
+Lever Skips=Lever Skips
 Menu Drop=下落菜单
 No Hard Falls=禁用Hard Fall
 Shade Soul Lever Skip
 Storage=卡菜单
-Superslides
-Televator
+Superslides=Superslides
+Televator=Televator
 
 

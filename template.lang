@@ -1,0 +1,56 @@
+Comes from=Comes from
+
+#Desc
+Dev=Dev
+FixVolume=FixVolume
+NPCSellAll=NPCSellAll
+PatchedBosses=PatchedBosses
+SkipCutscenes=SkipCutscenes
+SpeedBroke=SpeedBroke
+
+#Dev
+Log Unity Errors=Log Unity Errors
+Enable Stacktrace=Enable Stacktrace
+
+#FixVolume
+Double Damage Volume Modifier=Double Damage Volume Modifier
+
+#NPC Sell All
+Jinn Sell All=Jinn Sell All
+Lemm Sell All=Lemm Sell All
+
+#Patched Bosses
+No Backrolls=No Backrolls
+Sleepy Crystal Guardian=Sleepy Crystal Guardian
+Spore Shroom Hollow Knight=Spore Shroom Hollow Knight
+
+#Skip Cutscenes
+Absolute Radiance=Absolute Radiance
+Abyss Shriek Get=Abyss Shriek Get
+After Kings Brand Get=After Kings Brand Get
+Allow Skipping Nonskippable=Allow Skipping Nonskippable
+Auto Skip Cinematics=Auto Skip Cinematics
+Black Egg Open=Black Egg Open
+Dreamers Get=Dreamers Get
+First Charm=First Charm
+First Time Bosses=First Time Bosses
+Godhome Entry=Godhome Entry
+Hall Of Gods Statues=Hall Of Gods Statues
+Instant Scene Fade Ins=Instant Scene Fade Ins
+Pure Vessel Roar=Pure Vessel Roar
+Skip Cutscenes Without Prompt=Skip Cutscenes Without Prompt
+Stag Arrive=Stag Arrive
+
+#Speed Broke
+Crystalised Mound Spikes=Crystalised Mound Spikes
+Explosion Pogo=Explosion Pogo
+Grubs Through Walls=Grubs Through Walls
+Lever Skips=Lever Skips
+Menu Drop=Menu Drop
+No Hard Falls=No Hard Falls
+Shade Soul Lever Skip
+Storage=Storage
+Superslides=Superslides
+Televator=Televator
+
+
