@@ -18,10 +18,9 @@ class QolLocalization : ModBase
                 IMenuMod.MenuEntry? button) =>
             {
                 var entries = orig(self, button);
-                if (I18n.CurrentCode.Value == Language.LanguageCode.ZH_CN)
-                    if ((I18n.CurrentCode ?? Language.LanguageCode.ZH_CN) == Language.LanguageCode.ZH_CN &&
-                        Language.Language.CurrentLanguage() != Language.LanguageCode.ZH)
-                        return entries;
+                if ((I18n.CurrentCode ?? Language.LanguageCode.ZH_CN) == Language.LanguageCode.ZH_CN &&
+                    Language.Language.CurrentLanguage() != Language.LanguageCode.ZH)
+                    return entries;
                 for (int i = 0; i < entries.Count; i++)
                 {
                     var e = entries[i];
