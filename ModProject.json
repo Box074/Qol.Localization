@@ -1,6 +1,6 @@
 {
   "ProjectName": "Qol.Localization",
-  "ModVersion": "0.0.1.0",
+  "ModVersion": "0.1.0.0",
   "CodeDir": ".\\Scripts\\",
   "EmbeddedResourceDir": ".\\Res\\",
   "EmbeddedResource": {
