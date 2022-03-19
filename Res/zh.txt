@@ -1,12 +1,25 @@
-Comes from=分类{0}
+Comes from=来自模块 ：{0}
+
+Module Toggles=模块开关
+Module Field Toggles=模块开关(详细)
 
 #Desc
 Dev=开发
+FasterLoads=快速加载
+FastMenus=快速菜单
+FastText=文字快速出现
+FixFireballs=修复靠墙吞波
 FixVolume=音量修复
+InfinitePoP=无限苦痛
+LockMenuCursor=锁定鼠标
 NPCSellAll=一键卖物
+OldDashmaster=旧版冲刺大师
 PatchedBosses=Boss修改
+SalubraKiller=禁用鲁萨巴的祝福特效
+SaneUumuu=减少乌姆RNG
 SkipCutscenes=跳过场
 SpeedBroke=速通BUG
+UnencryptedSaves=不加密存档
 
 #Dev
 Log Unity Errors=重定向UnityLog的Error

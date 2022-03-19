@@ -1,12 +1,26 @@
-Comes from=Comes from
+Comes from=Comes from {0}
+
+Module Toggles=Module Toggles
+Module Field Toggles=Module Field Toggles
+
 
 #Desc
 Dev=Dev
+FasterLoads=FasterLoads
+FastMenus=FastMenus
+FastText=FastText
+FixFireballs=FixFireballs
 FixVolume=FixVolume
+InfinitePoP=InfinitePoP
+LockMenuCursor=LockMenuCursor
 NPCSellAll=NPCSellAll
+OldDashmaster=OldDashmaster
 PatchedBosses=PatchedBosses
+SalubraKiller=SalubraKiller
+SaneUumuu=SaneUumuu
 SkipCutscenes=SkipCutscenes
 SpeedBroke=SpeedBroke
+UnencryptedSaves=UnencryptedSaves
 
 #Dev
 Log Unity Errors=Log Unity Errors
